@@ -4,7 +4,7 @@ This Assignment compares Golang and R with the same package. Evaluating the poss
 The computer-intensive statistical method I selected is bootstrapping. Bootstrapping is a statistical method used to estimate the sampling distribution of an estimator by sampling with replacement from the original dataset. In R, the package called 'boot' provides extensive functionality for bootstrapping and related resampling methods. This is the URL of the 'boot' package.
 https://CRAN.R-project.org/package=boot
 
-In order to improve the performance of the Go implementation of the selected statistical method, I employed Testing, benchmarking, and software profiling. In the Golang program,  there are functions (TestBootstrapSample and BenchmarkBootstrapSample) provided for testing and benchmarking the BootstrapSample function. These can be used with Go's built-in testing framework to ensure the function behaves as expected and to measure its performance. The code also utilizes CPU profiling and memory profiling to measure the performance of the program. 
+In order to improve the performance of the Go implementation of the selected statistical method, I employed Testing, benchmarking, and software profiling. In the Golang program,  there are functions (TestBootstrapSample,TestCalculateConfidenceInterval and BenchmarkBootstrapSample) provided for testing and benchmarking the BootstrapSample function. These can be used with Go's built-in testing framework to ensure the function behaves as expected and to measure its performance. The code also utilizes CPU profiling and memory profiling to measure the performance of the program. 
 
 #Compare the R and Golang to see the difference between execution time and memory usage
 
